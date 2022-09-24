@@ -6,7 +6,7 @@ function App() {
       </div>
 
       <div className="overflow-hidden px-4 sm:px-8">
-        <div className="relative h-[100vh]" >
+        <div id="pg-1 cover" className="relative h-[100vh]" >
           <div className="overflow-hidden">
             <div className="absolute duration-300 ease-in-out left-[70%] md:left-[70%] top-[12%] md:top-[5%]" style={{ opacity: 1, transform: "none" }}>
               <div className="absolute md:w-[128px] w-[100px] z-10 -rotate-45" style={{ top: "20px", left: "0px" }}>
@@ -79,6 +79,191 @@ function App() {
           </div>
 
         </div>
+
+        <div id="pg-2 projects" className="relative">
+          <div className="mx-0 sm:mx-[10px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[450px] transform duration-300 ease-linear font-goku">
+            <div className="font-goku text-white mt-[100px] py-[120px] md:py-[170px]">
+              <div className="flex flex-col w-full sm:w-fit m-auto">
+                <div className="text-shadow-green text-green duration-[10ms]  ease-in-out  -translate-x-20 -translate-y-16 text-fill-transparent text-stroke text-[96px] absolute" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>PROCESS</div>
+                <h1 className="text-[40px] md:text-[48px] m-auto flex-wrap z-10 flex justify-center text-center" style={{ opacity: 1 }}>PROJECT PROCESS</h1>
+                <div className="flex items-center justify-between">
+                  <div className="h-[1px] flex justify-start bg-white" style={{ width: "100%" }}></div>
+                  <h2 className="ml-16 xdemipho2:ml-10 whitespace-nowrap font-Raleway text-[11px] md:text-[13px] flex justify-end flex-wrap uppercase items-end " style={{ opacity: 1, transform: "none" }}>Let’s talk about your project</h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="flex flex-col-reverse duration-300 ease-in-out md:text-left justify-center items-center text-center md:flex-row md:justify-between md:items-center ">
+                <div style={{ opacity: 1, transform: "none" }}><h1 className="text-[35px] text-white">Counseling and analysis</h1>
+                  <p className="text-[13px] sm:text-[14px] md:text-[14px] text-white/90 max-w-[583px] font-Raleway">On our first consultation session, I listen to what you want and i ask questions i need to achieve your goal. It results in understanding the need and scope of the required solution.</p>
+                </div>
+                <div className="flex md:pl-20 justify-center items-center text-[91px]">
+                  <h1 className=" text-white font-goku" style={{ opacity: 1, transform: "none" }}>01</h1>
+                  <span className="absolute translate-x-[15px] translate-y-[15px] duration-[10ms]  ease-in-out  text-shadow-green -z-10 duration  text-fill-transparent text-stroke text-green" style={{ opacity: 1, transform: "translateX(15px) translateY(15px) translateZ(0px)" }}>01</span>
+                </div>
+              </div>
+              <div className="bg-white/20 h-[1px] my-16" style={{ width: "60%" }}></div>
+              <div className="flex flex-col-reverse duration-300 ease-in-out md:text-left justify-center items-center text-center md:flex-row-reverse md:justify-between md:items-center ">
+                <div style={{ opacity: 1, transform: "none" }}>
+                  <h1 className="text-[35px] text-white">User interface design</h1>
+                  <p className="text-[13px] sm:text-[14px] md:text-[14px] text-white/90 max-w-[583px] font-Raleway">What users see above all is the visual aspect of your product. In addition to being beautiful, it must be simple, effective and interactive. You have to be able to eliminate superfluous elements while making the user experience pleasant and visually impeccable.</p>
+                </div>
+                <div className="flex md:pr-20 justify-center items-center text-[91px]">
+                  <h1 className=" text-white font-goku" style={{ opacity: 1, transform: "none" }}>02</h1>
+                  <span className="absolute translate-x-[15px] translate-y-[15px] duration-[10ms]  ease-in-out  text-shadow-green -z-10 duration  text-fill-transparent text-stroke text-green" style={{ opacity: 1, transform: "translateX(-15px) translateY(15px) translateZ(0px)" }}>02</span>
+                </div>
+              </div>
+              <div className="flex justify-end"><div className="bg-white/20 w-[60%] h-[1px] my-16" style={{ width: "60%" }}>
+              </div>
+              </div>
+              <div className="flex flex-col-reverse duration-300 ease-in-out justify-center md:text-left items-center text-center md:flex-row md:justify-between md:items-center ">
+                <div style={{ opacity: 1, transform: "none" }}>
+                  <h1 className="text-[35px] text-white">Development</h1>
+                  <p className="text-[13px] sm:text-[14px] md:text-[14px] text-white/90 max-w-[583px] font-Raleway">I work with Nextjs the greatest choice to optimize your website for seo, including TailwindCss that let me finalize projects faster I make sure that the website is optimised to follow modern web practices, such as speed, security, and reliability.</p>
+                </div>
+                <div className="flex md:pl-20 justify-center items-center text-[91px]">
+                  <h1 className=" text-white font-goku" style={{ opacity: 1, transform: "none" }}>03</h1>
+                  <span className="absolute translate-x-[15px] translate-y-[15px] duration-[10ms]  ease-in-out  text-shadow-green -z-10 duration  text-fill-transparent text-stroke text-green" style={{ opacity: 1, transform: "translateX(15px) translateY(15px) translateZ(0px)" }}>03</span>
+                </div>
+              </div>
+              <div className="bg-white/20 w-[60%] h-[1px] my-16" style={{ width: "60%" }}>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="pg-3 exp" className="relative">
+          <div className="text-white mx-0 sm:mx-[0px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[400px]">
+            <div className="font-goku text-white py-[120px] md:py-[170px] mt-[100px]">
+              <div className="flex flex-col w-full sm:w-fit m-auto">
+                <div className="text-shadow-green duration-[10ms]  ease-in-out  text-green text-fill-transparent  text-stroke text-[96px] absolute -translate-x-20 -translate-y-20   z-0" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>EXPERIENCE</div>
+                <h1 className="text-[40px] md:text-[48px] uppercase m-auto flex-wrap z-10 flex justify-center text-center" style={{ opacity: 1 }}>information technology</h1>
+                <div className="flex items-center justify-between">
+                  <div className="h-[1px] flex justify-start bg-white" style={{ opacity: 1, width: "100%" }}></div>
+                  <h2 className="ml-16 xdemipho2:ml-10 whitespace-nowrap font-Raleway text-[11px] md:text-[13px] uppercase flex justify-end flex-wrap pl-0 md:pl-10 items-end " style={{ opacity: 1, transform: "none" }}>experience</h2>
+                </div>
+              </div>
+            </div>
+            <div className="font-goku grid justify-center text-[32px] ">
+              <div className="grid-cols-1 capitalize gap-y-20 sm:grid-cols-2 lg:grid-cols-3 grid gap-x-32 ">
+                <div className="w-[210px] ">
+                  <div>
+                    <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>01</h1>
+                    <h1 className="z-50" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>UI DESIGN</h1>
+                  </div>
+                  <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                        </div>
+                      </div>
+                      <span>Ui Designs</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                        </div>
+                      </div>
+                      <span>Web &amp; Mobile</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span className="w-56">Figma &amp; photoshop &amp; illustrator and lightroom</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                        </div>
+                      </div>
+                      <span>More in the future...</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[210px] ">
+                  <div>
+                    <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>02</h1>
+                    <h1 className="z-50 uppercase flex-nowrap whitespace-nowrap" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>front end dev</h1>
+                  </div>
+                  <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}><div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                      </div>
+                      </div>
+                      <span>html &amp; css (tailwindCss)</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                        </div>
+                      </div>
+                      <span>javascript &amp; typescript</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                        </div>
+                      </div>
+                      <span>React &amp; nextjs</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span className="w-56">splide &amp; framer motion...</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span>More in the future...</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[210px] ">
+                  <div>
+                    <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>03</h1>
+                    <h1 className="z-50 uppercase" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>overall</h1>
+                  </div>
+                  <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span>patient </span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span>commited</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span className="w-56">disciplined</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span>professional</span>
+                    </div>
+                    <div className="flex justify-start items-center">
+                      <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
+                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
+                      </div>
+                      <span>More in the future as well </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div >
   );
