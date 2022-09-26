@@ -1,4 +1,4 @@
-function Projects() {
+export default function Projects() {
     return (
         <div id="pg-2 projects" className="relative">
             <div className="mx-0 sm:mx-[10px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[450px] transform duration-300 ease-linear font-goku">
@@ -53,4 +53,3 @@ function Projects() {
         </div>
     );
 }
-export default Projects;

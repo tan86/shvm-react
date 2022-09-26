@@ -4,7 +4,7 @@ import Exp from "./components/Exp";
 import Works from "./components/Works";
 import Blur from "./components/Blur";
 
-function App() {
+export default function App() {
   return (
     <div style={{ opacity: 1, transform: "none", background: "black" }}>
       <div className="overflow-hidden px-4 sm:px-8">
@@ -23,4 +23,3 @@ function App() {
         <div id="dot" className="absolute z-20 w-[0.3rem] h-[0.3rem] bg-green top-1/2 left-1/2 rounded-full -translate-y-1/2 opacity-100 transition ease-in-out -translate-x-1/2" style={{ top: { x }, left: { y }, transform: "translate(-50%, -50%) scale(1)" }}></div>
       </div>
       */
-export default App;

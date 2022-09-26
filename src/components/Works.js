@@ -1,4 +1,4 @@
-function Works() {
+export default function Works() {
     return (
         <div class="relative">
             <div class="z-50">
@@ -198,4 +198,3 @@ function Works() {
         </div>
     );
 }
-export default Works;

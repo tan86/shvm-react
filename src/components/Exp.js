@@ -1,4 +1,4 @@
-function Exp() {
+export default function Exp() {
     return (
         <div className="relative">
             <div className="text-white mx-0 sm:mx-[0px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[400px]">
@@ -133,4 +133,3 @@ function Exp() {
         </div>
     );
 }
-export default Exp;

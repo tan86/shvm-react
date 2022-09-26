@@ -12,6 +12,10 @@
   src: url(./assets/fonts/Raleway.ttf) format('truetype');
 }
 
+:root {
+  --theme-color: rgb(78 198 97);
+}
+
 .sm\:text-\[100px\] {
   font-size: 100px;
 }
@@ -59,6 +63,13 @@
 
 .bg-red {
   background-color: rgb(239 71 111/var(--tw-bg-opacity));
+}
+
+.bg-theme {
+  background-color: var(--theme-color);
+}
+.clr-theme {
+  color: var(--theme-color);
 }
 
 body {

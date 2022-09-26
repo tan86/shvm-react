@@ -1,4 +1,4 @@
-function Cover() {
+export default function Cover() {
     return (
         <div className="relative h-[100vh]" >
             <div className="overflow-hidden">
@@ -49,7 +49,7 @@ function Cover() {
             </div>
 
             <div className="wrapper mx-10">
-                <div className="fixed block lg:hidden z-[10000000] cursor-pointer -translate-y-[0%] bottom-10 -translate-x-1/2 -mx-[19px] w-4 h-4 bg-green rounded-full"></div>
+                <div className="fixed block lg:hidden z-[10000000] cursor-pointer -translate-y-[0%] bottom-10 -translate-x-1/2 -mx-[19px] w-4 h-4 bg-theme rounded-full"></div>
                 <div className="fixed z-30 duration-300 ease-in-out delay-200 w-[0.5px] h-[260px] bg-white/20  -translate-y-[0%] lg:-translate-y-1/2 -bottom-[500px]  lg:top-1/2 -translate-x-1/2 -mx-[19px]">
                     <div className="space-y-12 flex flex-col justify-center items-center">
                         <div className="">
@@ -65,7 +65,7 @@ function Cover() {
                             <div className="h-[9px]  bigger relative w-[9px] mr-0 transform ease-in-out duration-300 cursor-pointer z-50 bg-yellow rounded-full"></div>
                         </div>
                         <div className="border-[1px] border-white bg-main rounded-full">
-                            <div className="h-[15px] bigger  relative w-[15px] transform ease-in-out duration-300 m-2 cursor-pointer z-50 bg-green rounded-full"></div>
+                            <div className="h-[15px] bigger  relative w-[15px] transform ease-in-out duration-300 m-2 cursor-pointer z-50 bg-theme rounded-full"></div>
                         </div>
                     </div>
                 </div>
@@ -73,4 +73,3 @@ function Cover() {
         </div>
     );
 }
-export default Cover;
