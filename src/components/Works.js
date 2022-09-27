@@ -2,13 +2,11 @@ const WorkCard = ({ name, link }) => {
     return (
         <div class="flex flex-col justify-center items-center py-4 sm:justify-between sm:flex-row sm:py-8">
             <h2 class=" text-white hidden sm:block text-center md:text-left sm:relative font-Raleway text-[20px]">{name}</h2>
-
             <div class="flex w-full sm:w-fit items-center sm:justify-center justify-between space-x-4">
                 <div class="text-[12px] px-8 py-[9px] w-fit  cursor-pointer duration-[10ms]  ease-in-out z-30 font-medium font-Raleway uppercase bg-green rounded-md">
                     <a target="_blank" rel="noreferrer" href={link} class="flex text-white font-Raleway text-center justify-center items-center">Live Preview</a>
                 </div>
             </div>
-
         </div>
     );
 }

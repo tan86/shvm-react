@@ -4,7 +4,7 @@ export default function Exp() {
             <div className="text-white mx-0 sm:mx-[0px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[400px]">
                 <div className="font-goku text-white py-[120px] md:py-[170px] mt-[100px]">
                     <div className="flex flex-col w-full sm:w-fit m-auto">
-                        <div className="text-shadow-green duration-[10ms]  ease-in-out  text-green text-fill-transparent  text-stroke text-[96px] absolute -translate-x-20 -translate-y-20   z-0" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>EXPERIENCE</div>
+                        <div className="text-shadow-green duration-[10ms]  ease-in-out  text-green text-fill-transparent  text-stroke text-[96px] absolute -translate-x-20 -translate-y-20 z-0" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>EXPERIENCE</div>
                         <h1 className="text-[40px] md:text-[48px] uppercase m-auto flex-wrap z-10 flex justify-center text-center" style={{ opacity: 1 }}>information technology</h1>
                         <div className="flex items-center justify-between">
                             <div className="h-[1px] flex justify-start bg-white" style={{ opacity: 1, width: "100%" }}></div>
