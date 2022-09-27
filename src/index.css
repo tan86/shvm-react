@@ -49,6 +49,10 @@
   background-color: rgb(78 198 97/var(--tw-bg-opacity));
 }
 
+.border-green {
+  border-color: rgb(78 198 97);
+}
+
 .bg-yellow {
   background-color: rgb(203 172 64/var(--tw-bg-opacity));
 }

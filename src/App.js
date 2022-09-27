@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div style={{ opacity: 1, transform: "none", background: "black" }}>
       <div className="overflow-hidden px-4 sm:px-8">
-      <Blur />
+        <Blur />
         <Cover />
         <Projects />
         <Exp />
