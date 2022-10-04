@@ -13,11 +13,11 @@ export default function Projects() {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-col-reverse duration-300 ease-in-out md:text-left justify-center items-center text-center md:flex-row md:justify-between md:items-center ">
+                    <div className="flex flex-col-reverse duration-300 ease-in-out md:text-left justify-center items-center text-center md:flex-row md:justify-evenly md:items-center ">
                         <div style={{ opacity: 1, transform: "none" }} className="font-Raleway">
                             <h1 className="text-[35px] text-white font-black">Start Imagining</h1>
                             <p className="text-[13px] sm:text-[14px] md:text-[14px] text-white/90 max-w-[583px]">we gather all of our creative energy and project them to get big picture
-                                We go back and forth with QNA to acquire a clear understanding of our goals and our future strategies.</p>
+                                <br/>We go back and forth with QNA to acquire a clear understanding of <br/>our goals  our future strategies.</p>
                         </div>
                         <div className="flex md:pl-20 justify-center items-center text-[91px]">
                             <h1 className=" text-white font-goku" style={{ opacity: 1, transform: "none" }}>01</h1>

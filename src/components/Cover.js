@@ -1,8 +1,8 @@
 export default function Cover() {
     return (
         <div className="relative h-[100vh]" >
-            <div className="overflow-hidden">
-                <div className=" absolute duration-300 ease-in-out left-[70%] md:left-[70%] top-[12%] md:top-[5%]" style={{ opacity: 1, transform: "none" }}>
+            <div className="invisible sm:visible overflow-hidden">
+                <div className="absolute duration-300 ease-in-out left-[70%] md:left-[70%] top-[12%] md:top-[5%]" style={{ opacity: 1, transform: "none" }}>
                     <div className="absolute md:w-[128px] w-[100px] z-10 -rotate-45" style={{ top: "20px", left: "0px" }}>
                         <svg className="fill-white transition transform ease-in-out duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="50" height="50"><g id="Pentool"><path d="M79,36H76.9766a32.8015,32.8015,0,0,0-21.6-30H72.142a4,4,0,1,0,0-2H48V2a1,1,0,0,0-1-1H41a1,1,0,0,0-1,1V4H15.858a4,4,0,1,0,0,2H32.6232a32.8015,32.8015,0,0,0-21.6,30H9a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V37a1,1,0,0,0-1-1H13.0234A30.815,30.815,0,0,1,40,6.2631V8a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V6.2631A30.815,30.815,0,0,1,74.9766,36H73a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V37A1,1,0,0,0,79,36Z" /><path d="M46.8945,13.5527A1,1,0,0,0,45,14V46.41a1,1,0,0,0,.5947.914,4,4,0,1,1-3.1894,0A1,1,0,0,0,43,46.41V14a1,1,0,0,0-1.8945-.4473l-19,38a1.0008,1.0008,0,0,0,0,.8946L29.3818,67H58.6182l7.2763-14.5527a1.0008,1.0008,0,0,0,0-.8946Z" /><rect x="26" y="69" width="36" height="8" rx="1" ry="1" /><path d="M29,86a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V79H29Z" /></g></svg>
                     </div>
@@ -22,10 +22,10 @@ export default function Cover() {
             <div className="font-goku w-full absolute justify-center text-white items-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 ">
                 <div className="md:-space-y-[77px] -space-y-[12vw] text-[24vw] sm:text-[100px] sm:-space-y-[60px] md:text-[128px]">
                     <div className="flex justify-center items-center ">
-                        <h2 className="flex justify-center " style={{ opacity: 1 }}>Shivam</h2>
+                        <h2 className="flex justify-center opacity-100">Shivam</h2>
                         <span className="absolute -z-10 -translate-x-8 -translate-y-8 duration-1000 ease-linear transition-transform text-fill-transparent text-stroke text-green" style={{ opacity: 1 }}>Shivam</span>
                     </div>
-                    <div className="flex justify-center" style={{ opacity: 1 }}> <h2>Suthar</h2></div>
+                    <div className="flex justify-center opacity-100"><h2>Suthar</h2></div>
                 </div>
                 <div className=" flex justify-center items-center text-center" style={{ opacity: 1 }}>
                     <h2 className="text-sm z-30 relative max-w-[500px] capitalize md:text-[24px] text-[22px] demipho:-mt-[10px] sm:-mt-[20px] font-Raleway font-black"><b>self taught, ingenious designer.</b><span className="font-Raleway pl-1 text-[14px] capitalize font-semibold"> Roaming and pondering in different tools of graphic design and motion graphic like adobe after effects, Illustrator, photoshop and many more.</span></h2>

@@ -21,9 +21,3 @@ export default function App() {
     </div >
   );
 }
-/*
-<div className="sm:block hidden">
-        <div id="dotOutline" className="absolute z-20 w-14 h-14 border-[0.5px] top-1/2 left-1/2 rounded-full -translate-y-1/2 opacity-100 transition ease-in-out -translate-x-1/2 " style={{ top: { x }, left: { y }, transform: "translate(-50%, -50%) scale(1)" }}></div>
-        <div id="dot" className="absolute z-20 w-[0.3rem] h-[0.3rem] bg-green top-1/2 left-1/2 rounded-full -translate-y-1/2 opacity-100 transition ease-in-out -translate-x-1/2" style={{ top: { x }, left: { y }, transform: "translate(-50%, -50%) scale(1)" }}></div>
-      </div>
-      */
