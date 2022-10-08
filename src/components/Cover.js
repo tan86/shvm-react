@@ -73,3 +73,8 @@ export default function Cover() {
         </div>
     );
 }
+/*
+TODO:
+- pg.3 Content.
+- 
+*/
