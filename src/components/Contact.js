@@ -30,7 +30,7 @@ export default function Contact() {
                                     </div>
                                     <div class="leading-6 xdemipho2:mt-2">
                                         <h2 class="text-[16px] sm:text-[18px] text-green  font-bold uppercase tracking-[0.5px]">EMAIL</h2>
-                                        <a href="mail:shivamsuthar62@gmail.com"><h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">shivamsuthar62@gmail.com</h3></a>
+                                        <a href="mailto:shivamsuthar62@gmail.com"><h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">shivamsuthar62@gmail.com</h3></a>
                                     </div>
                                 </div>
 
