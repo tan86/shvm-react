@@ -1,14 +1,14 @@
-export default function Projects() {
+export default function Design() {
     return (
         <div className="relative">
             <div className="mx-0 sm:mx-[10px] md:mx-[10px] lg:mx-[100px] xl:mx-[200px] 2xl:mx-[450px] transform duration-300 ease-linear font-goku">
                 <div className="font-goku text-white mt-[100px] py-[120px] md:py-[170px]">
                     <div className="flex flex-col w-full sm:w-fit m-auto">
-                        <div className="text-shadow-green text-green duration-[10ms]  ease-in-out  -translate-x-20 -translate-y-16 text-fill-transparent text-stroke text-[96px] absolute" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>PROCESS</div>
-                        <h1 className="text-[40px] md:text-[48px] m-auto flex-wrap z-10 flex justify-center text-center" style={{ opacity: 1 }}>PROJECT PROCESS</h1>
+                        <div className="text-shadow-green text-green duration-[10ms]  ease-in-out  -translate-x-20 -translate-y-16 text-fill-transparent text-stroke text-[96px] absolute" style={{ opacity: 1, transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>DESIGN</div>
+                        <h1 className="text-[40px] md:text-[48px] m-auto flex-wrap z-10 flex justify-center text-center" style={{ opacity: 1 }}>DESIGN THINKING</h1>
                         <div className="flex items-center justify-between">
                             <div className="h-[1px] flex justify-start bg-white" style={{ width: "100%" }}></div>
-                            <h2 className="ml-16 xdemipho2:ml-10 whitespace-nowrap font-Raleway text-[11px] md:text-[13px] flex justify-end flex-wrap uppercase items-end " style={{ opacity: 1, transform: "none" }}>Let’s talk about your project</h2>
+                            <h2 className="ml-16 xdemipho2:ml-10 whitespace-nowrap font-Raleway text-[11px] md:text-[13px] flex justify-end flex-wrap uppercase items-end " style={{ opacity: 1, transform: "none" }}>How Brain Works in Design Thinking</h2>
                         </div>
                     </div>
                 </div>

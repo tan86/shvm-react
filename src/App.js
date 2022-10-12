@@ -1,9 +1,9 @@
 import Cover from "./components/Cover";
-import Projects from "./components/Projects";
 import Exp from "./components/Exp";
 import Works from "./components/Works";
-import AnimatedCursor from "react-animated-cursor"
 import Contact from "./components/Contact";
+import AnimatedCursor from "react-animated-cursor"
+import Design from "./components/Design";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
       <div className="overflow-hidden px-4 sm:px-8">
         <AnimatedCursor outerSize={8} outerScale={5} />
         <Cover />
-        <Projects />
+        <Design />
         <Exp />
         <Works />
         <Contact />

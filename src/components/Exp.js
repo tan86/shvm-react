@@ -1,3 +1,15 @@
+const ListItem = ({ item }) => {
+    return (
+        <div className="flex justify-start items-center">
+            <div className="border-[1px] mr-[15px] border-white rounded-full transform-none">
+                <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
+                </div>
+            </div>
+            <span>{item}</span>
+        </div>
+    );
+};
+
 export default function Exp() {
     return (
         <div className="relative">
@@ -17,76 +29,28 @@ export default function Exp() {
                         <div className="w-[210px] ">
                             <div>
                                 <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>01</h1>
-                                <h1 className="z-50" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>UI DESIGN</h1>
+                                <h1 className="z-50" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>DESIGN</h1>
                             </div>
-                            <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                        </div>
-                                    </div>
-                                    <span>Ui Designs</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                        </div>
-                                    </div>
-                                    <span>Web &amp; Mobile</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span className="w-56">Figma &amp; photoshop &amp; illustrator and lightroom</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                        </div>
-                                    </div>
-                                    <span>More in the future...</span>
-                                </div>
+                            <div className="font-Raleway text-[13px] space-y-8 my-8 transform-none">
+                                <ListItem item="Graphics Design" />
+                                <ListItem item="Campaign Design" />
+                                <ListItem item="Motion Design" />
+                                <ListItem item="Video Editing" />
+                                <ListItem item="illustrations" />
+                                <ListItem item="3D Renders" />
                             </div>
                         </div>
                         <div className="w-[210px] ">
                             <div>
                                 <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>02</h1>
-                                <h1 className="z-50 uppercase flex-nowrap whitespace-nowrap" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>front end dev</h1>
+                                <h1 className="z-50 uppercase flex-nowrap whitespace-nowrap" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>Tools</h1>
                             </div>
-                            <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}><div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                    </div>
-                                    </div>
-                                    <span>html &amp; css (tailwindCss)</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                        </div>
-                                    </div>
-                                    <span>javascript &amp; typescript</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out ">
-                                        </div>
-                                    </div>
-                                    <span>React &amp; nextjs</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span className="w-56">splide &amp; framer motion...</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span>More in the future...</span>
-                                </div>
+                            <div className="font-Raleway text-[13px] space-y-8 my-8 transform-none">
+                                <ListItem item="Photoshop" />
+                                <ListItem item="Illustrator" />
+                                <ListItem item="After Effects" />
+                                <ListItem item="Premiere Pro" />
+                                <ListItem item="Blender" />
                             </div>
                         </div>
                         <div className="w-[210px] ">
@@ -94,37 +58,12 @@ export default function Exp() {
                                 <h1 className="z-10 -translate-x-8 -translate-y-10 duration-[10ms]  ease-in-out  text-fill-transparent text-stroke text-[60px]  text-shadow-purple  absolute text-green" style={{ opacity: 1, transform: "translateX(-25px) translateY(-35px) translateZ(0px)" }}>03</h1>
                                 <h1 className="z-50 uppercase" style={{ opacity: 1, transform: "translateY(5px) translateZ(0px)" }}>overall</h1>
                             </div>
-                            <div className="font-Raleway text-[13px] space-y-8 my-8" style={{ transform: "none" }}>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span>patient </span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span>commited</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span className="w-56">disciplined</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span>professional</span>
-                                </div>
-                                <div className="flex justify-start items-center">
-                                    <div className="border-[1px] mr-[15px] border-white rounded-full " style={{ transform: "none" }}>
-                                        <div className="bg-green  w-2 h-2 rounded-full m-[4px] duration-[10ms]  ease-in-out "></div>
-                                    </div>
-                                    <span>More in the future as well </span>
-                                </div>
+                            <div className="font-Raleway text-[13px] space-y-8 my-8 transform-none">
+                                <ListItem item="Patient" />
+                                <ListItem item="Commited" />
+                                <ListItem item="Disciplined" />
+                                <ListItem item="Professional" />
+                                <ListItem item="Punctual" />
                             </div>
                         </div>
                     </div>
