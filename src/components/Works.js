@@ -83,10 +83,10 @@ export default function Works() {
                     </div>
                 </div>
 
-                <div class="group relative w-fit m-auto z-50 flex justify-center mb-10" style={{ opacity: 1, transform: "none" }}>
+                <div class="group relative w-fit m-auto z-50 flex justify-center mb-10 opacity-100 transform-none">
                     <div class="border-white flex cursor-pointer border-[1px] z-50 w-fit rounded-xl">
                         <div class="bg-green duration-[10ms]  ease-in-out uppercase space-x-2 flex justify-center items-center relative z-50 font-Raleway m-2 text-white px-8 py-[15px] rounded-xl">
-                            <span>View More</span>
+                            <a href="https://www.behance.net/shivamsuthar"><span>View More</span></a>
                             <div class="group-hover:-translate-y-1 duration-[300ms] group-hover:translate-x-2 group-hover:scale-150">
                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-white rotate-45 " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V4a.5.5 0 01.5-.5z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 3.707 5.354 6.354a.5.5 0 11-.708-.708l3-3z" clip-rule="evenodd"></path></svg>
                             </div>

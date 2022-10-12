@@ -18,7 +18,7 @@ export default function Contact() {
                                     </div>
                                     <div class="leading-6 xdemipho2:mt-2">
                                         <h2 class="text-[16px] sm:text-[18px] text-green  font-bold uppercase tracking-[0.5px]">Phone</h2>
-                                        <h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">(+91) 8511686410</h3>
+                                        <a href="tel:+918511686410"><h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">(+91) 8511686410</h3></a>
                                     </div>
                                 </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                                     </div>
                                     <div class="leading-6 xdemipho2:mt-2">
                                         <h2 class="text-[16px] sm:text-[18px] text-green  font-bold uppercase tracking-[0.5px]">EMAIL</h2>
-                                        <h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">shivamsuthar62@gmail.com</h3>
+                                        <a href="mail:shivamsuthar62@gmail.com"><h3 class="text-[14px] sm:text-[18px] tracking-[0.6px] text-white font-medium">shivamsuthar62@gmail.com</h3></a>
                                     </div>
                                 </div>
 
