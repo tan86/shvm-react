@@ -65,7 +65,7 @@ export default function Exp() {
                                 <ListItem item="Disciplined" />
                                 <ListItem item="Professional" />
                                 <ListItem item="Punctual" />
-                                <ListItem item="Enthusiastic" />
+                                <ListItem item="enthusiast" />
                             </div>
                         </div>
                     </div>
