@@ -47,6 +47,7 @@ export default function Exp() {
                             </div>
                             <div className="font-Raleway text-[13px] space-y-8 my-8 transform-none">
                                 <ListItem item="Photoshop" />
+                                <ListItem item="Lightroom" />
                                 <ListItem item="Illustrator" />
                                 <ListItem item="After Effects" />
                                 <ListItem item="Premiere Pro" />
@@ -64,6 +65,7 @@ export default function Exp() {
                                 <ListItem item="Disciplined" />
                                 <ListItem item="Professional" />
                                 <ListItem item="Punctual" />
+                                <ListItem item="Enthusiastic" />
                             </div>
                         </div>
                     </div>
