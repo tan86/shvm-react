@@ -26,7 +26,7 @@ export default function Cover() {
                 <div className="md:-space-y-[77px] -space-y-[12vw] text-[24vw] sm:text-[100px] sm:-space-y-[60px] md:text-[128px]">
                     <div className="flex justify-center items-center ">
                         <h2 className="flex justify-center opacity-100">Shivam</h2>
-                        <span className="absolute -z-10 -translate-x-8 -translate-y-8 duration-1000 ease-linear transition-transform text-fill-transparent text-stroke text-green" style={{ opacity: 1 }}>Shivam</span>
+                        <span className="absolute -z-10 -translate-x-7 md:-translate-x-8 -translate-y-8 duration-1000 ease-linear transition-transform text-fill-transparent text-stroke text-green opacity-100">Shivam</span>
                     </div>
                     <div className="flex justify-center opacity-100"><h2>Suthar</h2></div>
                 </div>
