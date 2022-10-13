@@ -1,7 +1,7 @@
 export default function Contact() {
 	return (
 		<div class=' '>
-			<div class='bg-main z-20 mb-[200px] w-full transform-none'>
+			<div class='bg-main z-20 mb-[100px] w-full transform-none'>
 				<div class='flex flex-col xl:flex-row items-center justify-items-center'>
 					<div class='flex h-[250px]  w-[100%] items-center justify-center border-r-[0.5px] border-white/50 text-white xl:w-[50%]'>
 						<div>
