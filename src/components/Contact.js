@@ -3,14 +3,14 @@ export default function Contact() {
 		<div class=' '>
 			<div class='bg-main z-20 mb-[200px] w-full transform-none'>
 				<div class='flex flex-col xl:flex-row '>
-					<div class='bg-green flex h-[400px] w-[100%] items-center justify-center text-white xl:w-[50%]'>
+					<div class='flex h-[400px]  w-[100%] items-center justify-center border-r-[0.5px] border-white/50 text-white xl:w-[50%]'>
 						<div>
 							<h2 class='font-Raleway xdemipho2:text-center transform-none text-left text-[37px] font-bold capitalize leading-[50px] sm:text-left sm:text-[48px] sm:leading-[60px] md:text-[50px]'>
 								What are you <br /> waiting for?
 							</h2>
 						</div>
 					</div>
-					<div class=' border-green  flex h-auto w-[100%]  items-center justify-center border-b-4 py-10 xl:h-[400px] xl:w-[50%]'>
+					<div class=' flex h-auto w-[100%]  items-center justify-center py-10 xl:h-[400px] xl:w-[50%]'>
 						<div class='font-Raleway mx-2 transform-none sm:mx-20'>
 							<div class='relative z-30 py-6 delay-300'>
 								<div class='xdemipho2:flex-col xdemipho2:justify-center xdemipho2:items-center xdemipho2:text-center xdemipho2:space-x-0 flex items-start space-x-4 pr-0 md:items-center md:pr-20'>

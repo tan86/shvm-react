@@ -15,6 +15,16 @@ export default function App() {
 				<Exp />
 				<Works />
 				<Contact />
+				<div className='relative'>
+					<div
+						class='absolute top-[10%] left-1/2 z-[2] -translate-x-1/2 -translate-y-1/2'
+						style={{
+							opacity: 1,
+							transform: "translateX(-50%) translateY(200px) translateZ(0px);",
+						}}>
+						<canvas class='bg-green h-[600px] w-[600px] rounded-full blur-[250px]  duration-[10ms]  ease-in-out'></canvas>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
