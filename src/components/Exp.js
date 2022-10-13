@@ -18,17 +18,17 @@ export default function Exp() {
 						<div
 							className='text-shadow-green text-green  text-fill-transparent  text-stroke absolute  z-0 -translate-x-20 -translate-y-20 text-[96px] duration-[10ms] ease-in-out'
 							style={{ transform: "translateX(-70px) translateY(-70px) translateZ(0px)" }}>
-							EXPERIENCE
+							SKILLS
 						</div>
 						<h1
 							className='z-10 m-auto flex flex-wrap justify-center text-center text-[40px] uppercase md:text-[48px]'
 							style={{ opacity: 1 }}>
-							information technology
+							Experience
 						</h1>
 						<div className='flex items-center justify-between'>
 							<div className='flex h-[1px] justify-start bg-white' style={{ width: "100%" }}></div>
 							<h2 className='xdemipho2:ml-10 font-Raleway ml-16 flex transform-none flex-wrap items-end justify-end whitespace-nowrap pl-0 text-[11px] uppercase md:pl-10 md:text-[13px]'>
-								experience
+								Tools
 							</h2>
 						</div>
 					</div>

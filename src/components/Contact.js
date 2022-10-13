@@ -2,8 +2,8 @@ export default function Contact() {
 	return (
 		<div class=' '>
 			<div class='bg-main z-20 mb-[200px] w-full transform-none'>
-				<div class='flex flex-col xl:flex-row '>
-					<div class='flex h-[400px]  w-[100%] items-center justify-center border-r-[0.5px] border-white/50 text-white xl:w-[50%]'>
+				<div class='flex flex-col xl:flex-row items-center justify-items-center'>
+					<div class='flex h-[250px]  w-[100%] items-center justify-center border-r-[0.5px] border-white/50 text-white xl:w-[50%]'>
 						<div>
 							<h2 class='font-Raleway xdemipho2:text-center transform-none text-left text-[37px] font-bold capitalize leading-[50px] sm:text-left sm:text-[48px] sm:leading-[60px] md:text-[50px]'>
 								What are you <br /> waiting for?
