@@ -83,7 +83,7 @@ export default function Cover() {
 						<h2 className='flex justify-center opacity-100'>Shivam</h2>
 						<span
 							style={{
-								animation: isInView && "outlinetext 2s linear",
+								animation: isInView && "outlinetext 1s linear",
 							}}
 							className='text-fill-transparent text-stroke text-green absolute -z-10 -translate-x-8 -translate-y-8 opacity-100'>
 							Shivam
