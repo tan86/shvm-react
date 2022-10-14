@@ -26,15 +26,10 @@
 	background-image: linear-gradient(
 		90deg,
 		#4ec661,
-		#4ec661,
 		#cbac40,
-		#cbac40,
-		#479eef,
-		#479eef,
-		#6947ef,
-		#6947ef,
-		#ef476f,
-		#ef476f
+    #479eef,
+    #4ec661,
+		#cbac40
 	);
 	background-size: 400% 100%;
 }
