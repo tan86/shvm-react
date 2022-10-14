@@ -1,12 +1,22 @@
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+
 const Blur = () => {
 	return (
-		<div className='translate-z-0 absolute left-1/2 z-10 translate-x-0 -translate-y-[300px] transform'>
-			<div className='bg-theme absolute h-[830px] w-[1030px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[200px]'></div>
-		</div>
+		<motion.div
+			initial={{ opacity: 0, transform: "translateX(50%)" }}
+			animate={{ opacity: 1, transform: "translate(0, -300px)" }}
+			transition={{ duration: 0.9 }}
+			className='absolute left-1/2 z-10'>
+			<div className='animated-gradient absolute h-[830px] w-[1030px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[200px]'></div>
+		</motion.div>
 	);
 };
 
 export default function Cover() {
+	const ref = useRef(null);
+	const isInView = useInView(ref);
+
 	return (
 		<div className='relative h-[100vh]'>
 			<Blur />
@@ -29,9 +39,9 @@ export default function Cover() {
 					</div>
 				</div>
 				<div className='absolute left-[90%] top-[91%] transform-none duration-300 ease-in-out md:left-[80%] md:top-[89%]'>
-					<div className=' absolute -top-[10px] -left-[10px] z-10 w-[100px] md:w-[128px]'>
+					<div className='absolute -top-[10px] -left-[10px] z-10 w-[100px]  md:w-[128px]'>
 						<svg
-							className='fill-white hover:scale-105'
+							className=' fill-white animated-gradient'
 							height='50'
 							width='50'
 							viewBox='0 0 88 88'
@@ -67,11 +77,15 @@ export default function Cover() {
 				</div>
 			</div>
 
-			<div className='font-goku absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 items-center justify-center text-white '>
+			<div className='font-goku absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 select-none items-center justify-center text-white '>
 				<div className='-space-y-[12vw] text-[24vw] sm:-space-y-[60px] sm:text-[100px] md:-space-y-[77px] md:text-[128px]'>
-					<div className='flex items-center justify-center '>
+					<div ref={ref} className='flex items-center justify-center '>
 						<h2 className='flex justify-center opacity-100'>Shivam</h2>
-						<span className='text-fill-transparent text-stroke text-green absolute -z-10 -translate-x-7 -translate-y-8 opacity-100 transition-transform duration-1000 ease-linear md:-translate-x-8'>
+						<span
+							style={{
+								animation: isInView && "outlinetext 2s linear",
+							}}
+							className='text-fill-transparent text-stroke text-green absolute -z-10 -translate-x-8 -translate-y-8 opacity-100'>
 							Shivam
 						</span>
 					</div>
@@ -80,7 +94,7 @@ export default function Cover() {
 					</div>
 				</div>
 				<div className=' flex items-center justify-center text-center opacity-100'>
-					<h2 className='demipho:-mt-[10px] font-Raleway leading-6 relative z-30 max-w-[500px] text-sm text-[22px] font-black capitalize sm:-mt-[20px] md:text-[24px]'>
+					<h2 className='demipho:-mt-[10px] font-Raleway relative z-30 max-w-[500px] text-sm text-[22px] font-black capitalize leading-6 sm:-mt-[20px] md:text-[24px]'>
 						<b>self taught, ingenious designer.</b>
 						<span className='font-Raleway pl-1 text-[14px] font-semibold capitalize'>
 							Roaming and pondering in different tools of graphic design and motion graphic like

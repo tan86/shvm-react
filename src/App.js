@@ -18,7 +18,7 @@ export default function App() {
 				<div className='relative h-[100px]'>
 					<div class='font-Raleway flex transform-none flex-col justify-around uppercase text-white opacity-100 md:flex-row'>
 						<div>
-							<h1 class='flex-col relative z-[11] flex items-center justify-center text-center text-[14px] text-white md:text-[15px]'>
+							<h1 class='relative z-[11] flex flex-col items-center justify-center text-center text-[14px] text-white md:text-[15px]'>
 								DEVELOPED BY JAY PARMAR
 							</h1>
 						</div>
