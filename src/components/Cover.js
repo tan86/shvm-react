@@ -8,7 +8,7 @@ const Blur = () => {
 			animate={{ opacity: 1, transform: "translate(0, -300px)" }}
 			transition={{ duration: 0.9 }}
 			className='absolute left-1/2 z-10'>
-			<div className='animated-gradient absolute h-[830px] w-[1030px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[200px]'></div>
+			<div className='bg-green absolute h-[830px] w-[1030px] -translate-x-1/2 -translate-y-1/2 rounded-full blur-[200px]'></div>
 		</motion.div>
 	);
 };
@@ -41,7 +41,7 @@ export default function Cover() {
 				<div className='absolute left-[90%] top-[91%] transform-none duration-300 ease-in-out md:left-[80%] md:top-[89%]'>
 					<div className='absolute -top-[10px] -left-[10px] z-10 w-[100px]  md:w-[128px]'>
 						<svg
-							className=' fill-white animated-gradient'
+							className=' fill-white'
 							height='50'
 							width='50'
 							viewBox='0 0 88 88'
