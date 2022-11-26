@@ -172,28 +172,6 @@ export default function Cover() {
 				</div>
 			</div>
 
-			<div className='wrapper mx-10'>
-				<div className='bg-theme fixed bottom-10 z-[10000000] -mx-[19px] block h-4 w-4 -translate-y-[0%] -translate-x-1/2 cursor-pointer rounded-full lg:hidden'></div>
-				<div className='fixed -bottom-[500px] z-30 -mx-[19px] h-[260px] w-[0.5px] -translate-y-[0%] -translate-x-1/2  bg-white/20 delay-200 duration-300  ease-in-out lg:top-1/2 lg:-translate-y-1/2'>
-					<div className='flex flex-col items-center justify-center space-y-12'>
-						<div className=''>
-							<div className='bigger bg-red relative mr-0 h-[9px] w-[9px] transform cursor-pointer rounded-full  duration-300 ease-in-out'></div>
-						</div>
-						<div className=''>
-							<div className='bigger bg-purple relative z-50 mr-0 h-[9px] w-[9px] transform cursor-pointer rounded-full duration-300 ease-in-out'></div>
-						</div>
-						<div className=''>
-							<div className='bigger bg-blue  relative z-50 mr-0 h-[9px] w-[9px] transform cursor-pointer rounded-full duration-300 ease-in-out'></div>
-						</div>
-						<div className=''>
-							<div className='bigger bg-yellow relative z-50 mr-0 h-[9px] w-[9px] transform cursor-pointer rounded-full duration-300 ease-in-out'></div>
-						</div>
-						<div className='bg-main rounded-full border-[1px] border-white'>
-							<div className='bigger bg-theme  relative z-50 m-2 h-[15px] w-[15px] transform cursor-pointer rounded-full duration-300 ease-in-out'></div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	);
 }
