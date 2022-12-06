@@ -43,6 +43,46 @@ const WorkCard = ({ name, link, img }) => {
 	);
 };
 
+const Work1 = () => {
+	return (
+		<WorkCard
+			name='Lakeview Fitness Gym'
+			link='https://www.behance.net/gallery/157736259/Lakeview-Fitness-Gym-Social-Media-Vol9'
+			img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3c6352157736259.Y3JvcCwxNjE2LDEyNjQsMCww.jpg'
+		/>
+	);
+};
+
+const Work2 = () => {
+	return (
+		<WorkCard
+			name='Stock Market Trading Campaign'
+			link='https://www.behance.net/gallery/157225099/Stock-Market-Trading-Social-Media-Campaign-Vol8'
+			img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/79ef85157225099.Y3JvcCwxNjE2LDEyNjQsMCww.jpg'
+		/>
+	);
+};
+
+const Work3 = () => {
+	return (
+		<WorkCard
+			name='Miniso Bhuj Campaign'
+			link='https://www.behance.net/gallery/156664811/Miniso-Bhuj-Social-Media-Campaign-Vol7'
+			img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/c924de156664811.6375a5123adf0.png'
+		/>
+	);
+};
+
+const Work4 = () => {
+	return (
+		<WorkCard
+			name='Indian Food Campaign'
+			link='https://www.behance.net/gallery/140796247/Indian-Food-Social-Media-Campaign-Vol4'
+			img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/760f74140796247.Y3JvcCwxNjE2LDEyNjQsMCww.jpg'
+		/>
+	);
+};
+
 export default function Works() {
 	return (
 		<div class='relative z-50'>
@@ -71,35 +111,19 @@ export default function Works() {
 				<div class='mb-[90px] flex flex-col sm:mb-[200px]'>
 					<div class='flex flex-col items-center justify-center gap-x-20 xl:flex-row'>
 						<div class='border-green relative transform-none items-end justify-end rounded-[24px] sm:flex sm:max-h-[415px] sm:max-w-fit sm:border-[1px] sm:border-t-[0] sm:p-8'>
-							<WorkCard
-								name='Honda Cars Campaign'
-								link='https://www.behance.net/gallery/151527031/Honda-cars-Social-Media-Campaign-Vol6'
-								img='https://mir-s3-cdn-cf.behance.net/projects/404/45a086151527031.Y3JvcCwxNjE2LDEyNjQsMCww.jpg'
-							/>
+							<Work1 />
 						</div>
 						<div class='border-green relative mb-0 mt-10 transform-none items-end  justify-end rounded-[24px] sm:mt-20 sm:flex sm:max-h-[415px] sm:max-w-fit sm:border-[1px] sm:border-t-[0] sm:p-8 xl:mt-48'>
-							<WorkCard
-								name='Indian Food Campaign'
-								link='https://www.behance.net/gallery/140796247/Indian-Food-Social-Media-Campaign-Vol4'
-								img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/760f74140796247.Y3JvcCwxNjE2LDEyNjQsMCww.jpg'
-							/>
+							<Work2 />
 						</div>
 					</div>
 
 					<div class='flex flex-col items-center justify-center gap-x-20 xl:flex-row xl:items-start 2xl:items-start 2xl:justify-center'>
 						<div class='xl:mt-42 border-green relative  mt-10 transform-none items-end justify-end rounded-[24px] sm:mt-20 sm:flex sm:max-h-[415px] sm:max-w-fit sm:border-[1px] sm:border-t-[0] sm:p-8 md:mt-20 xl:mt-0'>
-							<WorkCard
-								name='Gym Campaign'
-								link='https://www.behance.net/gallery/134640115/Social-Media-Gym-Campaign-vol2'
-								img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/ac4303134640115.Y3JvcCw3NDgsNTg1LDI5LDI0.jpg'
-							/>
+							<Work3 />
 						</div>
 						<div class='border-green  relative mt-10 transform-none items-end justify-end  rounded-[24px] duration-[10ms] ease-in-out sm:mt-20 sm:flex sm:max-h-[415px] sm:max-w-fit sm:border-[1px] sm:border-t-[0] sm:p-8 xl:mt-28'>
-							<WorkCard
-								name='Pharmacy Campaign'
-								link='https://www.behance.net/gallery/133340023/Online-Pharmacy-Campaign-Vol1-Social-Media-Post'
-								img='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a63811133340023.Y3JvcCw4MDgsNjMyLDAsMA.jpg'
-							/>
+							<Work4 />
 						</div>
 					</div>
 				</div>
